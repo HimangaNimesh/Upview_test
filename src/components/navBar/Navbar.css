@@ -1,0 +1,20 @@
+.navbarWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 15px 0;
+}
+
+.logo{
+    height: 50px;
+}
+
+.cartButton{
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+    background-color: transparent;
+    cursor: pointer;
+  }
